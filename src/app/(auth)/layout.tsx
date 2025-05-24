@@ -1,5 +1,5 @@
 interface AuthLayoutProps {
-  children: React.ReactNode;
+  children: React.ReactNode
 }
 
 const AuthLayout = ({ children }: AuthLayoutProps) => {
@@ -8,7 +8,7 @@ const AuthLayout = ({ children }: AuthLayoutProps) => {
       <nav className="w-full bg-red-500">Auth Navbar</nav>
       {children}
     </div>
-  );
-};
+  )
+}
 
-export default AuthLayout;
+export default AuthLayout
