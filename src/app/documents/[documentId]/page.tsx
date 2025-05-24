@@ -8,7 +8,7 @@ const Document = async ({
   const { documentId } = await params;
   console.log({ documentId });
   return (
-    <div>
+    <div className="min-h-screen bg-[#FAFBFD]">
       <Editor />
     </div>
   );
