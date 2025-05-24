@@ -1,5 +1,5 @@
 interface DocumentLayoutProps {
-  children: React.ReactNode;
+  children: React.ReactNode
 }
 
 const DocumentLayout = ({ children }: DocumentLayoutProps) => {
@@ -8,7 +8,7 @@ const DocumentLayout = ({ children }: DocumentLayoutProps) => {
       <nav className="w-full bg-red-500">Document Navbar</nav>
       {children}
     </div>
-  );
-};
+  )
+}
 
-export default DocumentLayout;
+export default DocumentLayout
